@@ -16,6 +16,7 @@
 #include <regex>
 #include <numeric>
 #include <vector>
+#include <deque>
 #include <sstream>
 
 #endif //PCH_H
