@@ -47,8 +47,8 @@ build_script:
     #- ctest -C %CONFIGURATION% --output-on-failure
 
 artifacts:
-    - path: c:\projects\polynom
-      name: polynom
+    - path: ./build
+      name: polynom_artifacts
 
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:
