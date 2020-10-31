@@ -284,15 +284,15 @@ int main()
 
 	auto schema_sum_result = *schema + *other_schema;
 	auto schema_diff_result = *other_schema - *schema;
-	auto schema_multiply_result = *other_schema * *schema;
+	// auto schema_multiply_result = *other_schema * *schema;
 
-	std::cout << std::endl;
-	std::cout << "Two polynoms schemes summ: " << std::endl
-		<< sv->to_string(schema_sum_result) << std::endl;
-	std::cout << "Two polynoms schemes difference(second minus first): " << std::endl
-		<< sv->to_string(schema_diff_result) << std::endl;
-	std::cout << "Two polynoms schemes multiply: " << std::endl
-		<< sv->to_string(schema_multiply_result) << std::endl;
+	// std::cout << std::endl;
+	// std::cout << "Two polynoms schemes summ: " << std::endl
+		// << sv->to_string(schema_sum_result) << std::endl;
+	// std::cout << "Two polynoms schemes difference(second minus first): " << std::endl
+		// << sv->to_string(schema_diff_result) << std::endl;
+	// std::cout << "Two polynoms schemes multiply: " << std::endl
+		// << sv->to_string(schema_multiply_result) << std::endl;
 
 	return 0;
 }
