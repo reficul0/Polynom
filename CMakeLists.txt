@@ -6,6 +6,8 @@ find_package(Threads REQUIRED)
 #find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
 add_executable(helloworld_cli "${PROJECT_SOURCE_DIR}/Polynom/Polynom/Polynom.cpp")
+add_executable(helloworld_cli "${PROJECT_SOURCE_DIR}/Polynom/Polynom/pch.cpp")
+add_executable(helloworld_cli "${PROJECT_SOURCE_DIR}/Polynom/Polynom/pch.h")
 
 #add_library(helloworld lib.cpp)
 #add_executable(test_version test_version.cpp)
