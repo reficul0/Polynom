@@ -47,7 +47,7 @@ build_script:
     #- ctest -C %CONFIGURATION% --output-on-failure
 
 artifacts:
-    - path: ./
+    - path: ./$(configuration)/
       name: polynom_artifacts
 
 deploy:
